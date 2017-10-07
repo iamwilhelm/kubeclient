@@ -325,7 +325,7 @@ The below example is for v1
 service = Kubeclient::Resource.new
 service.metadata = {}
 service.metadata.name = "redis-master"
-service.metadata.namespace = 'staging'
+service.metadata.namespace = 'staging' # required
 service.spec = {}
 service.spec.ports = [{
   'port' => 6379,
