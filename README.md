@@ -311,7 +311,7 @@ For example: `delete_pod "pod name"` , `delete_replication_controller "rc name"`
 Input parameter - name (string) specifying service name, pod name, replication controller name.
 
 ```ruby
-client.delete_service("redis-service")
+client.delete_service("redis-service", "default")
 ```
 
 #### Create an entity
